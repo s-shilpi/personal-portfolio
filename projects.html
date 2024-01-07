@@ -1,0 +1,139 @@
+<!-- Name: Shilpi Sarkar -->
+<!-- Student ID#: 040749357 -->
+<!-- File Name: project.html -->
+<!-- Date Created: 20 October, 2023 -->
+<!-- Purpose: To make project page for personal porfolio -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="projects">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projects</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="projects.js" defer></script> 
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Shilpi Sarkar</h1>
+            <nav>
+                <ul id="navbar">
+                    <li class="navitem"><a href="./index.html" >Home</a></li>
+                    <li class="navitem"><a href="./resume.html">Resume</a></li>
+                    <li class="navitem"><a class="active" href="./projects.html">Projects</a></li>
+                    <li class="navitem"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Academic Projects</h2>
+        <div class="slideshow">
+            <div class="project">
+                <div class="image">
+                    <img src="images/toolrentalmanagement.jpg" alt="Tool Rental Management System" title="Tool Rental Management System">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">Tool Management System – Microsoft SQL Server, Microsoft Access</h3>
+                    <div class="projectdetails">
+                        <p>CST2355 Database Systems</p>
+                        <p>Date Completed: October 20,2023</p>
+                    </div>
+                    <ul class="projectinfo">
+                        <li> Create diagram,tables and relationship between tables for tool rental system.</li>
+                        <li>Created a tool rental management system with Microsoft Access and Microsoft SQL Server database to store application data in linked tables. </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img src="images/electronichealthrecord.png" alt="Electronic Health Record" title="Electronic Health Record">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">Electronic Health Record (EHR) System – Java, UML, JUnit </h3>
+                    <div class="projectdetails">
+                        <p>CST8284 Object Oriented Programming (Java)</p>
+                        <p>Date Completed: October 15,2023</p>
+                    </div>
+                    <ul class="projectinfo">
+                        <li>Implemented Object-Oriented Programming principles in Java to create an EHR system. </li>
+                        <li>Used constructors and methods to retrieve patient data and calculate heart rate and Body Mass Index. </li>
+                        <li>Created tests with JUnit to validate methods and calculations.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img src="images/personalportfolio.jpg" alt="Personal Portfolio" title="Personal Portfolio">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">Personal Portfolio – JavaScript, HTML, CSS</h3>
+                    <div class="projectdetails">
+                        <p>CST8285 Web Programming</p>
+                        <p>Date Completed: November 05,2023</p>
+                    </div>
+                    <ul class="projectinfo">
+                        <li>Developed a web page that reflect academic studies,and focus on professional ambitions.</li>
+                        <li>Developed layout and style for personal portfolio website using HTML and CSS while following Web Content Accessibility Guidelines (WCAG). </li>
+                        <li>Implemented website functionality using JavaScript to enhance user experience. </li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img src="images/travelblog.png" alt="Travel Blog" title="Travel Blog">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">Travel Blog – HTML, CSS	</h3>
+                <div class="projectdetails">
+                    <p>CST8285 Web Programming</p>
+                    <p>Date Completed: October 12,2023</p>
+                </div>
+                    <ul class="projectinfo">
+                        <li>Used CSS to style a Travel Blog webpage using various identifiers, divs, and tags.</li>
+                        <li>Implemented the designer's toolkit for crafting visually appealing and user-friendly web interfaces.</li>
+                        <li>Implimented formatting the document using a cascading style sheet (CSS).</li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img src="images/jokes.png" alt="Joke Generator" title="Joke Generator">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">Joke Generator – JavaScript, HTML, CSS</h3>
+                <div class="projectdetails">
+                    <p>CST8285 Web Programming</p>
+                    <p>Date Completed: October 20,2023</p>
+                </div>
+                    <ul class="projectinfo">
+                        <li>Developed layout and style for a webpage that generates random jokes using HTML and CSS.</li>
+                        <li>Used JavaScript and DOM traversal to implement functions that select and display random jokes onto the webpage.</li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="project">
+                <div class="image">
+                    <img src="images/hometown.png" alt="My Hometown" title="My Hometown">
+                </div>
+                <div class="description">
+                    <h3 class="projectname">My Hometown – HTML, PHP</h3>
+                <div class="projectdetails">
+                    <p>CST8285 Web Programming</p>
+                    <p>Date Completed: September 28,2023</p>
+                </div>
+                    <ul class="projectinfo">
+                        <li>Used HTML to create the basic layout of a website that showcases information about my hometown. </li>
+                        <li>Implemented form functionality using PHP to allow users to share their information. </li>
+                        <li>CSS was not used since this was my first web development assignment</li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <a id="prev" onclick="nextProject(-1)">&#10094; Previous</a>
+            <a id="next" onclick="nextProject(1)">Next &#10095;</a>
+        </div>
+        <footer>
+            <p>&copy; Shilpi Sarkar, 2023</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!-- Name: Shilpi Sarkar -->
+<!-- Student ID#: 040749357 -->
+<!-- File Name: contact.html -->
+<!-- Date Created: 20 October, 2023 -->
+<!-- Purpose: To make contact page for personal porfolio -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Shilpi Sarkar</h1>
+      <nav>
+        <ul id="navbar">
+          <li class="navitem"><a href="./index.html" >Home</a></li>
+          <li class="navitem"><a href="./resume.html">Resume</a></li>
+          <li class="navitem"><a href="./projects.html">Projects</a></li>
+          <li class="navitem"><a class="active" href="./contact.html">Contact</a></li>
+        </ul>    
+      </nav>
+    </header>
+    <h2>Contact</h2>
+      <p class="contactme">Feel free to contact me at sark0021@algonquinlive.com or (613)-316-9286. Please view the "Resume" tab for more information!</p>
+      <form id="contactForm"  action="Assignment1Form.php" method="post" enctype="text/plain">  
+      <div class="formContainer">
+        <div>
+          <label for="firstname">First name</label><br>
+          <input type="text" id="firstname" name="firstname">  
+        </div>
+        <div>
+          <label for="lastname">Last name</label><br>
+          <input type="text" id="lastname" name="lastName" maxlength="10">
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="format for email is xxx@yyy.zzz" size="50" > 
+        </div>
+          <div>
+            <label for="textarea"> Message</label><br>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" ></textarea>
+          </div>
+        
+          <input id="button" type="submit" value="Submit">   
+      </div>          
+      </form>
+    <footer>
+        <p>&copy; Shilpi Sarkar, 2023</p>
+    </footer>
+  </body>
+</html>

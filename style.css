@@ -1,0 +1,398 @@
+/* Name: Shilpi Sarkar
+    Student ID#: 040749357 
+    File Name: style.css 
+    Date Created: October 25, 2023
+    Purpose:To style personal webpage */
+
+/* Reset margin and padding for all elements */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Define the font, background color, and text color for the body element */
+body{
+    font-family:  Calibri;
+    background-color: #FAFDF3;
+    color:#2E5266;
+}
+
+/* Style the header element with background color, margin, color, padding, and text alignment */
+#title {
+    background-color: #7EB09B; 
+    margin: auto;
+    color: #242038;
+    padding: 2rem;
+    text-align: center;
+    font-size: 36px;
+}
+/* Style unordered lists (ul) by removing list-style, margin, and padding, and setting overflow and background color */
+#navbar {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0A014F;
+}
+
+.navitem {
+    width: 100%;
+    list-style-type: none;
+}
+/*This CSS code styles navigation items as block elements with centered text, full width, color, and padding, while removing text decoration and setting a large font size.*/
+.navitem a {
+    display: block;
+    color: #FAFDF3;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-size: large;
+}
+/* Apply a hover background color to links within elements with the class .navitem */
+.navitem a:hover {
+    background-color: #476A6F;
+}
+/* Style links within elements with the class .navitem that are marked as "active" with a specific background color */
+.navitem a.active {
+    background-color: #776d9f;
+}
+/* Center-align text within all h2 elements */
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+/* Remove text decoration and set font size to large for all anchor (a) elements */
+a {
+    text-decoration: none;
+    font-size: large;
+}
+/* Center-align images by setting them as block-level elements and using auto margins */ 
+#image {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+}
+/* Center-align text, set a larger font size, and specify a text color for all paragraphs (p) */
+#aboutme, .contactme {
+    text-align: center;
+    font-size:larger;
+    color: #476A6F;
+    font-weight: bold;
+    padding: 5px;
+}
+/* This CSS code centers the text, sets the color to #0A014F, and adds 5px of padding for elements with the class "info." */
+.info {
+    text-align: center;
+    color:#0A014F;
+    padding: 5px;
+}
+
+/* Style the element with the ID #link by center-aligning text, setting it as a block-level element, and adding underline text decoration */
+#link {
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+/* Style the #resumecontent element, setting its width, display, margins, border, padding, and background color */
+#resumecontent {
+    width: 55%;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-radius: 1px;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    background-color: white;
+}
+/* Style the #name element, including text alignment, font size, and margin */
+#name {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+/* Style the #contactinfo element, specifying list style, padding, overflow, font size, text alignment, display, margin, and width */
+#contactinfo {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+}  
+/* Style elements with the class .contact, including floating, padding, and centering margins */
+.contact {
+    float: left;
+}
+
+#linkedin {
+    text-decoration: underline;
+}
+
+/* Reset padding and margin for all h3 elements */
+h3 {
+    padding: 0;
+    margin: 0;
+}
+.resumeheader {
+    text-align: left;
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+#objective {
+    margin-top: 0;
+}
+
+/* Apply a margin at the bottom for elements with the classes .job and .education */
+.job, .education {
+    margin-bottom: 7px;
+}
+/* Style elements with the classes .jobdetails and .educationdetails using flex display, justify content, and zero margin */
+.jobdetails, .educationdetails, .company, .study {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0;
+}
+/* Apply bold font weight and zero margin to elements with the classes .jobtitle and .programinfo */
+.jobtitle, .programinfo {
+    font-weight: bold;
+    margin: 0;
+}
+/* Right-align text and remove margin for elements with the classes .jobdate and .programdate */
+.jobdate, .programdate, .joblocation, .studylocation {
+    text-align: right;
+    margin: 0;
+    font-weight: bold;
+}
+/* Add margin at the top of all unordered lists (ul) */
+.resumebullet {
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.project{
+    background-color: #317883ba;
+    width: 80%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+}
+
+img {
+    height:375px;
+    width: 600px;
+}
+
+.description {
+    width:60%;
+    padding-top: 30px;
+    color: #FAFDF3;
+    margin-left: 10px;
+}
+
+.projectdetails {
+    color:#0A014F;
+    font-weight: bold
+}
+
+.projectname {
+    padding: 5px;
+    padding-left: 0;
+}
+
+.projectinfo {
+    padding-top: 3px;
+    margin-left: 17px;
+}
+/* This css code style the buttons*/
+#buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+}
+/* Styling for clickable prev and next buttons with a blue background */
+#prev, #next {
+    cursor: pointer;
+    top: 45%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0A014F;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-bottom: 12px;
+}
+
+#prev {
+    margin-left: 1%;
+}
+
+#prev:hover, #next:hover {
+    background-color: #476A6F;
+}
+
+#next {
+    margin-right: 2%;
+}
+/*This code style a centered, 1-column grid layout for a contact form with a specified width, padding, and background color.*/
+#contactForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color:#317883ba; 
+}
+
+.formContainer{
+    margin: auto;
+}
+
+#contactForm input,#contactForm textarea{
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+}
+label {
+    font-size: 19px;
+    font-weight: bolder;
+    color:#FAFDF3;
+}
+/* This CSS code styles a button element with a pointer cursor, specific dimensions, center-aligned text, and a rounded design */
+#button {
+    cursor: pointer;
+    width:5%;
+    text-align: center;
+    padding: 10px;
+    background-color: #476A6F;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+#button:hover {
+    background-color: #a9c2c6;
+}
+
+form {
+    height: 400px;
+}
+
+/* Style the footer element with a background color, padding, text alignment, font size, margin, and text color */
+footer {
+    background-color:#476A6F;
+    padding: 30px;
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* For screen widths less than or equal to 768px, change the main element's flex direction to column.
+This media tag is used to format the #navbar, #resumecontent, .project, .description, img, #buttons and #contactForm elements*/
+@media (max-width:768px) {
+    body {
+        flex-direction:column; 
+    }
+    /* Nav bar will change from 1 row to 2 rows with 2 columns*/
+    #navbar{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Change width of #resumecontent element to 88% and change padding to 1rem on screen widths less than or equal to 768px*/
+    #resumecontent {
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+        width: 88%;
+        margin: auto;
+    }
+    /* Change width of #project element to 90% and change flex-direction to column on screen widths less than or equal to 768px*/
+    .project {
+        width: 90%;
+        flex-direction: column;
+    }
+    /* Change width of .description element to 100% on screen widths less than or equal to 768px*/
+    .description {
+        margin: auto;
+        padding-top: 0;
+        width: 100%;
+    }
+    /* Change width of img to 100% on screen widths less than or equal to 768px*/
+    img {
+        width: 100%;
+    }
+
+    #buttons {
+        position: relative;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #contactForm {
+        width: 90%;
+    }
+}
+
+/* /* This media tag is used to format the #contactinfo and .contact elements on screen size widths greater than 300px and less than 1050px.
+Used to change contact info in header of resume of resume.html so that it changes into 3 columns*/
+@media (min-width: 300px) and (max-width: 1050px) {
+    #contactinfo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .contact {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+/* This media tag is used to format the .project, .description, #buttons, #prev and #next elements on screen widths greater than 768px and less than 1155px. 
+ Used to re-format slideshow section and buttons on projects.html page */
+@media (min-width: 768px) and (max-width: 1155px) {
+    .project {
+        width: 600px;
+        flex-direction: column;
+    }
+
+    .description {
+        margin: auto;
+        padding-top: 0;
+        width: 600px;
+    }
+
+    #buttons {
+        position: relative;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #prev {
+        margin-left: 2%;
+    }
+    #next {
+        margin-right: 2%;
+    }
+}
+
+ 
